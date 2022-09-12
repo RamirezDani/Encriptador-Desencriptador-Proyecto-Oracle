@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/Logo.png" alt="Logo">
+        </div>
+    </header>
+
+    <main>
+        <form name="form">
+            <div id="In">
+                <textarea id=textIn placeholder="Ingrese el texto click aquí"></textarea>
+            </div>
+
+            <div id="flex-container">
+                <input type="button" id="btnEncrypt" value="Encriptar" onClick="encriptar()" />
+                <input type="button" id="btnDesEncypt" value="Desencriptar" onClick="desencriptar()"/>
+                <input type="button" id="btnCopy" value="Copiar" style="display:none" onClick="copiar()"/>
+            </div>           
+
+        </form>
+
+        <div id="flex-con">
+            <svg id="simb" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-exclamation-circle-fill" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4zm.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+              </svg>
+            <label id="adv">Solo letras minúsculas y sin acentos</label>
+        </div>
+
+        <div id="out">
+            <img src="img/Muñeco.png" id="muneco" alt="munñco" >
+            <p id="textOut">En espera de texto a encriptar o desencriptar</p>
+        </div>
+
+    </main>
+
+    <footer>
+        
+    </footer>
+</body>
+
+</html>
