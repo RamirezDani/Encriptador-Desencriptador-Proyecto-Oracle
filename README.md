@@ -1,5 +1,5 @@
 # encriptador
-Proyecto de encriptación.para el programa ONE Oracle Next Education.
+Proyecto de encriptación usando tecnologías como: HTML, JavaScript y css. Reto número uno del programa ONE Oracle Next Education de Oracle.
 
 #Condiciones
 
